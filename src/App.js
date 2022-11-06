@@ -2,9 +2,6 @@ import React, { Fragment } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AcountEdit, Dashboard, RegisterState } from './pages/index';
 
-
-
-
 import './index.css';
 import { Aside, NavBar } from './components';
 
@@ -31,7 +28,7 @@ const App = () => {
 								<Routes>
 									<Route path='/dashboard/' element={<Dashboard />} />
 									<Route path='/dashboard/AcountEdit' element={<AcountEdit />} />
-									<Route path='/dashboard/AcountEdit' element={<RegisterState />} />
+									<Route path='/dashboard/RegisterState' element={<RegisterState />} />
 								</Routes>
 							</main>
 						</div>
