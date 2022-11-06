@@ -29,9 +29,9 @@ const App = () => {
 						<div className='col-10 p-0'>
 							<main>
 								<Routes>
-									<Route path='dashboard/' element={<Dashboard />} />
-									<Route path='dashboard/AcountEdit' element={<AcountEdit />} />
-									<Route path='dashboard/AcountEdit' element={<RegisterState />} />
+									<Route path='/dashboard/' element={<Dashboard />} />
+									<Route path='/dashboard/AcountEdit' element={<AcountEdit />} />
+									<Route path='/dashboard/AcountEdit' element={<RegisterState />} />
 								</Routes>
 							</main>
 						</div>
