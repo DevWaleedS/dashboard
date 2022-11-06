@@ -36,7 +36,7 @@ const Aside = () => {
 		<div className='menu-links'>
 			<ul className='menu-'>
 				<li>
-					<Link className='item' to='/'>
+					<Link className='item' to='dashboard/'>
 						<img src={dashboard} alt='' />
 						<h4>الرئيسية</h4>
 					</Link>
@@ -51,11 +51,11 @@ const Aside = () => {
 					</div>
 					{/*sub menu */}
 					<div className='sub-menu '>
-						<NavLink className='item' to='/template'>
+						<NavLink className='item' to='dashboard/template'>
 							<BsFillCircleFill />
 							<h4> نص</h4>
 						</NavLink>
-						<NavLink className='item' to='/template'>
+						<NavLink className='item' to='dashboard/template'>
 							<BsFillCircleFill />
 							<h4>نص</h4>
 						</NavLink>
@@ -79,7 +79,7 @@ const Aside = () => {
 							<BsFillCircleFill />
 							<h4>المتاجر</h4>
 						</NavLink>
-						<NavLink className='item ' to='/RegisterState'>
+						<NavLink className='item ' to='dashboard/RegisterState'>
 							<BsFillCircleFill />
 							<h4>حالة التسجيل</h4>
 						</NavLink>
@@ -145,7 +145,7 @@ const Aside = () => {
 					</NavLink>
 				</li>
 				<li>
-					<NavLink className='item' to='/AcountEdit'>
+					<NavLink className='item' to='dashboard/AcountEdit'>
 						<BsPerson />
 						<h4>المستخدمين</h4>
 					</NavLink>
